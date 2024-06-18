@@ -1,6 +1,5 @@
 li {
   list-style: none;
-  border: 1px solid blue;
   padding: 10px;
 }
 
@@ -14,12 +13,32 @@ body, ul {
 }
 
 #cabecalho-geral {
-  border: 1px solid red;
+  margin: 10px;
   width: 170px;
   text-align: center;
 }
 body {
-  font: roboto 16px;
+  font: normal 12.6666666667px Roboto;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.button-cadastrar {
+  background: #18048a;
+  margin-bottom: 10px;
+}
+.button-cadastrar:hover {
+  background: #3b3c97;
+}
+.button-consultar {
+  background: #80921a;
+}
+.button-consultar:hover {
+  background: #2dc56c;
 }
 
 /*# sourceMappingURL=main.css.map */
