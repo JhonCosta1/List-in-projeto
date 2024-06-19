@@ -7,6 +7,10 @@ i {
   padding: 3px;
 }
 
+body {
+  background-image: url("/src/img/background.jpg");
+}
+
 body, ul {
   margin: 0px;
   padding: 0px;
@@ -17,8 +21,55 @@ body, ul {
   width: 170px;
   text-align: center;
 }
+#campos-form {
+  margin: 10px;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text], input[type=number] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+input[type=submit] {
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 body {
   font: normal 12.6666666667px Roboto;
+}
+
+#form-geral {
+  display: flex;
+}
+
+#area-form-cadastro {
+  display: flex;
+  width: 83%;
+  margin-top: 10px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  justify-content: center;
 }
 
 .button {
@@ -26,6 +77,7 @@ body {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .button-cadastrar {
   background: #18048a;
